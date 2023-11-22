@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.imgProduto {
+    margin-left: 200px;
+    width: 900px;
+    height: auto;
+}
+
+.bgDaFaixada {
+    width: 100%;
+    height: 1000px;
+    background: rgb(223,208,181);
+    background: radial-gradient(circle, rgba(223,208,181,1) 0%, rgba(172,149,124,1) 51%, rgba(149,118,84,1) 100%);
+}
+
+.textPrincipal {
+    font-family: 'Abril Fatface', serif;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-deck{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.card-deck2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card {
+    max-width: 18rem;
+    width: auto;
+    height: auto;
+}
+
+.card:hover {
+    transform: scale(1.06,1.06);
+    transition: 0.8s;
+}
+
+.navbar-brand {
+    height: auto;
+    width: 120px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.molho {
+    display: flex;
+    max-width: 100%;
+    max-height: auto;
+}
+
+footer {
+    display: block;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    margin-top: 60px;
+    padding: 20px; /* Espaçamento interno do rodapé */
+    text-align: center; /* Alinhamento do texto no centro */
+}
